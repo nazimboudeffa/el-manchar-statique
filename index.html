@@ -12,6 +12,16 @@
       align-items: center;
       justify-content: center;
       background: #e61c2f;
+      font-family: Arial, sans-serif;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      padding: 2rem;
+      text-align: center;
     }
 
     img {
@@ -19,9 +29,28 @@
       max-width: min(90vw, 420px);
       height: auto;
     }
+
+    p {
+      margin: 0;
+      color: #fff;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #fff;
+      font-weight: 700;
+    }
   </style>
 </head>
 <body>
-  <img src="images/logo.png" alt="Logo El Manchar">
+  <main>
+    <img src="images/logo.png" alt="Logo El Manchar">
+    <p>
+      Retrouvez le projet sur
+      <a href="https://github.com/nazimboudeffa/el-manchar-statique">GitHub</a>
+      et contribuez a l'ecriture de nouveaux articles.
+    </p>
+  </main>
 </body>
 </html>
